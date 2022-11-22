@@ -1,0 +1,113 @@
+@font-face {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   src: url('./../style/fonts/roboto-v30-latin-regular.eot'); /* IE9 Compat Modes */
+   src: local(''),
+        url('./../style/fonts/roboto-v30-latin-regular.eot') format('embedded-opentype'), /* IE6-IE8 */
+        url('./../style/fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('./../style/fonts/roboto-v30-latin-regular.woff') format('woff'), /* Modern Browsers */
+        url('./../style/fonts/roboto-v30-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('./../style/fonts/roboto-v30-latin-regular.svg') format('svg'); /* Legacy iOS */
+ }
+ * {
+   margin: 0 auto;
+   padding: 0;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   box-sizing: border-box;
+ }
+.wrapper {
+   width: 1440px;
+}
+.block {
+   width: 1378px;
+   height: 1902px;
+   background: #FCF9F2;
+   border-top: 1px solid #000000;
+   border-left: 1px solid #000000;
+   border-right: 1px solid #000000;
+}
+.content {
+   width: 1100px;
+   height: 1702px;
+}
+.top_title {
+   width: 782px;
+   height: 60px;
+   font-size: 51px;
+   line-height: 60px;
+   margin-top: 95px;
+}
+.bottom {
+   width: 309px;
+   height: 47px;
+   font-size: 14px;
+   line-height: 20px;
+   background: #E38C00;
+   border-radius: 30px;
+   text-align: center;
+   margin-top: 34px;
+   text-transform: uppercase;
+   padding-top: 15px;
+}
+.content_body {
+   width: 880px;
+   height: 1516px;
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 50px;
+}
+.line1 {
+   width: 350px;
+   height: 693px;
+}
+.img-size {
+   width: 350px;
+   height: 439px;
+}
+.most_popular {
+   width: 170px;
+   height: 42px;
+   font-size: 14px;
+   line-height: 26px;
+   background: #F6DCB9;
+   border-radius: 10px;
+   text-align: center;
+   position: absolute;
+   margin: 21px 0 0 90px;
+   padding-top: 10px;
+}
+.line2 {
+   width: 350px;
+   height: 723px;
+}
+.content__body_1_img {
+   background: url('./image/backgraund1.svg');
+}
+.content__body_2_img {
+   background: url('./image/backgraund2.svg');
+}
+.content__body_3_img {
+   background: url('./image/backgraund3.svg');
+}
+
+.content__body_4_img {
+   background: url('./image/backgraund4.svg');
+}
+.title {
+   font-size: 29px;
+   line-height: 36px;
+   margin-top: 28px;
+}
+.subtitle {
+   font-size: 23px;
+   line-height: 28px;
+   margin-top: 10px;
+}
+.text{
+   font-size: 18px;
+   line-height: 30px;
+   margin-top: 23px;
+}

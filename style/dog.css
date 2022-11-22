@@ -1,0 +1,176 @@
+@font-face {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 500;
+   src: url('../fonts/poppins-v20-latin-500.eot'); /* IE9 Compat Modes */
+   src: local(''),
+        url('./../style/fonts/poppins-v20-latin-500.eot') format('embedded-opentype'), /* IE6-IE8 */
+        url('./../style/fonts/poppins-v20-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+        url('./../style/fonts/poppins-v20-latin-500.woff') format('woff'), /* Modern Browsers */
+        url('./../style/fonts/poppins-v20-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('./../style/fonts/poppins-v20-latin-500.svg') format('svg'); /* Legacy iOS */
+ }
+ @font-face {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   src: url('./../style/fonts/roboto-v30-latin-regular.eot'); /* IE9 Compat Modes */
+   src: local(''),
+        url('./../style/fonts/roboto-v30-latin-regular.eot') format('embedded-opentype'), /* IE6-IE8 */
+        url('./../style/fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('./../style/fonts/roboto-v30-latin-regular.woff') format('woff'), /* Modern Browsers */
+        url('./../style/fonts/roboto-v30-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('./../style/fonts/roboto-v30-latin-regular.svg') format('svg'); /* Legacy iOS */
+ }
+ * {
+   margin: 0 auto;
+   padding: 0;
+   box-sizing: border-box;
+   text-align: center;
+   justify-content: center;
+ }
+.Roboto {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   color: #E27B3A;
+   font-size: 16px;
+   line-height: 19px;
+}
+.Poppins {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 500;
+   color: #170C04;
+   font-size: 25px;
+   line-height: 38px;
+}
+.wrapper {
+   width: 1140px;
+   height: 1176px;
+}
+.top_content {
+   width: 505px;
+   height: 125px;
+}
+.top_content_title {
+   font-size: 32.25px;
+   line-height: 48px;
+   margin-bottom: 18px;
+}
+.top_content_text {  
+   font-size: 16px;
+   line-height: 24px;
+   color: #170C04;
+   opacity: 0.6;
+}
+.top_group_content_img {
+   display: flex;
+}
+.top_img_bckgr {
+   width: 555px;
+   height: 420px;
+   background: #FCF2EB;
+   border-radius: 20px;
+   margin-bottom: 25px;
+   display: flex;
+}
+.img_1 {
+   width: 373px;
+   height: 278px;
+   justify-content: center;
+   align-items: center;
+   margin-top: 71px;
+}
+.top_img {
+   background: url('./image/Harness-Lead-Leash-MediumLarge-Blue\ 1.svg');
+   mix-blend-mode: darken;
+}
+.img_2 {
+   background: url('./image/Reflective-dog-collar-1_1200x1200\ 1.png');
+   width: 304px;
+   height: 304px;
+   margin-top: 58px;
+}
+.top_img_dscr {
+   display: flex;
+}
+.img_dscr {
+   width: 555px;
+   height: 68px;
+   display: flex;
+   flex-direction: column;
+   margin: 25px 0 66px;
+}
+.img_dscr_title {
+   width: 555px;
+   height: 40px;
+   flex-direction: column;
+
+}
+.img_dscr_touch {
+   width: 88px;
+   height: 19px;
+   flex-direction: column;
+}
+.bottom_group_content_img {
+   display: flex;
+   margin-bottom: 23px;
+}
+.botton_img_bckgr {
+   width: 360px;
+   height: 273px;
+   background: #FCF2EB;
+   border-radius: 10px;
+}
+.bottom_img_dscr_descriptin {
+   display: flex;
+}
+.bottom_img_dscr {
+   width: 360px;
+   height: 57px;
+   display: flex;
+   flex-direction: column;
+   margin: 25px 0 46px;
+}
+.bottom_img_dscr_title {
+   width: 360px;
+   height: 40px;
+}
+.bottom_img_dscr_touch {
+   width: 91px;
+   height: 19px;
+}
+.bottom_img {
+   mix-blend-mode: darken;
+}
+.img_3 {
+   width: 292px;
+   height: 292px;
+   background: url('./image/2075_SLT_FR__50984\ 1.png');
+}
+.img_4 {
+   width: 195px;
+   height: 177px;
+   margin-top: 48px;
+   background: url('./image/81ud4pbkltL\ 1.png');
+}
+.img_5 {
+   width: 262px;
+   height: 170px;
+   margin-top: 55px;
+   background: url('./image/Rectangle\ 55.png');
+}
+.button {
+   width: 185px;
+   height: 48px;
+   opacity: 0.4;
+   border: 1px solid #E27B3A;
+   border-radius: 4px;
+   margin-top: 46px;
+}
+.button_text {
+   width: 126px;
+   height: 24px;
+   margin: 12px 0 0 30px;
+}
